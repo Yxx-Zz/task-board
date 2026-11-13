@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f5f0e7">
+  <meta name="description" content="教学组每日任务板：查看今天的工作任务，完成后勾选。">
+  <title>今日任务板 · 教学组</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要内容</a>
+  <div class="ambient" aria-hidden="true">
+    <div class="ambient-orb orb-one"></div>
+    <div class="ambient-orb orb-two"></div>
+    <div class="ambient-orb orb-three"></div>
+    <div class="ambient-grid"></div>
+  </div>
+
+  <div id="app">
+    <div class="boot-screen">
+      <div class="boot-mark">&lt;/&gt;</div>
+      <p>正在打开今天的任务板</p>
+      <div class="boot-dots" aria-hidden="true"><i></i><i></i><i></i></div>
+    </div>
+  </div>
+
+  <div id="toast-region" class="toast-region" aria-live="polite" aria-atomic="true"></div>
+  <div id="modal-root"></div>
+  <div id="confetti-layer" class="confetti-layer" aria-hidden="true"></div>
+
+  <noscript>
+    <div class="noscript-note">这个任务板需要开启 JavaScript 才能使用。</div>
+  </noscript>
+  <script src="/app.js" defer></script>
+</body>
+</html>

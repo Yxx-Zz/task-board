@@ -1,0 +1,29 @@
+[
+  {
+    "id": "demo1",
+    "name": "张三",
+    "role": "组员",
+    "letter": "张",
+    "accent": "#ff6d4a",
+    "color1": "#ffb36b",
+    "color2": "#ff5f7e"
+  },
+  {
+    "id": "demo2",
+    "name": "李四",
+    "role": "组员",
+    "letter": "李",
+    "accent": "#3d7dff",
+    "color1": "#63b3ff",
+    "color2": "#4f7cff"
+  },
+  {
+    "id": "demo3",
+    "name": "王五",
+    "role": "组员",
+    "letter": "王",
+    "accent": "#a357e8",
+    "color1": "#c084fc",
+    "color2": "#8b5cf6"
+  }
+]
